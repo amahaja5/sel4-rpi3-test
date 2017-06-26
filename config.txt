@@ -37,3 +37,6 @@ u-boot,spl-payload-offset
 	If present (and SPL is controlled by the device-tree), this allows
 	to override the CONFIG_SYS_SPI_U_BOOT_OFFS setting using a value
 	from the device-tree.
+
+enable_uart=1
+kernel=u-boot.bin
